@@ -1,0 +1,35 @@
+# Databases (private data)
+*.db
+*.db-journal
+
+# Logs
+*.log
+
+# API keys (never commit)
+.telegram_key
+.groq_key
+.gemini_key
+.newsapi_key
+.openweather_key
+.gmail_password
+.gmail_address
+.webui_creds
+.paypal_sandbox
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Vector store (private knowledge)
+vector_store.json
+
+# Backups
+*.bak
+*.bak_*
+.backup_*
+
+# Environment
+.env
+.venv/
+venv/
